@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Added background color */
+}
+
+ul li {
+    list-style-type: none;
+    padding: 7px;
+}
+
+.failed-questions {
+    height: 70vh;
+    padding: 20px;
+    color: red;
+    text-transform: capitalize;
+}
+
+.correct-questions {
+    height: 70vh;
+    padding: 20px;
+    color: blue;
+    text-transform: capitalize;
+}
+
+h4 {
+    display: none;
+}
+
+#h4.open,
+#h.open {
+    display: block;
+}
+
+.container {
+    margin: auto;
+}
+
+.section-header h3 {
+    font-size: 36px;
+    color: #413e66;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    top: 5px;
+}
+
+.section-header p {
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    padding-bottom: 60px;
+    color: #535074;
+    width: 50%;
+}
+
+.button {
+    text-align: center;
+    margin-top: 30px;
+}
+
